@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+    background-color: #e1e4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Huge Typing Field */
+textarea {
+    width: 100%;
+    height: 30px;
+    background-color: #545454;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    resize: none;
+    outline: none;
+}
+
+/* Send Button */
+button {
+    margin-top: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #4075c9;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    top: -8px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #345ea8;
+}
